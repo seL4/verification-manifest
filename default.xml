@@ -4,7 +4,7 @@
   
   <default remote="verification" revision="refs/heads/master"/>
   
-  <project name="isabelle" revision="refs/tags/Isabelle2014"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2015"/>
   <project name="l4v" revision="refs/heads/master" />
-  <project name="seL4" revision="69f37863aa65a285f8d8e8f893c44a5c4156857d" />
+  <project name="seL4" revision="f7a902198eb8e5e215ccfb052ac5d75bde14f61c" />
 </manifest>
