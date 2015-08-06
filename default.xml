@@ -6,5 +6,5 @@
   
   <project name="isabelle" revision="refs/tags/Isabelle2015"/>
   <project name="l4v" revision="refs/heads/master" />
-  <project name="seL4" revision="3a015efea95d421875a224dd613fd9d339bca548" />
+  <project name="seL4" revision="ec78890001ce878a14b931ebf2eb8da25ad308ef" />
 </manifest>
