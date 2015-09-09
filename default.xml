@@ -8,9 +8,9 @@
   
   <project name="isabelle" revision="refs/tags/Isabelle2015"/>
   <project name="l4v" revision="refs/heads/master" />
-  <project name="seL4" revision="ec78890001ce878a14b931ebf2eb8da25ad308ef" />
+  <project name="seL4" revision="f2b2301aa213dfef714c0af60950f842e5e878ed" />
 
   <project name="graph-refine" remote="projects" revision="refs/heads/master"/>
   <project name="HOL" remote="HOL4-github" path="HOL4"
-    revision="472f178084005ec3e075b3e89dca5b86d0a84836" />
+    revision="08b750fdf2f6012a69a4222a94fd08b8154dbff0" />
 </manifest>
