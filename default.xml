@@ -6,7 +6,7 @@
   
   <default remote="verification" revision="master"/>
   
-  <project name="isabelle" revision="Isabelle2015"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2015"/>
   <project name="l4v" revision="master" />
   <project name="seL4" revision="f2b2301aa213dfef714c0af60950f842e5e878ed" />
 
