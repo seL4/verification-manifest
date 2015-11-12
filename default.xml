@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="verification"/>
-  <remote fetch="https://github.com/seL4-projects" name="projects" />
+  <remote fetch="../seL4-projects" name="projects" />
   <remote fetch="https://github.com/HOL-Theorem-Prover" name="HOL4-github" />
   
   <default remote="verification" revision="master"/>
