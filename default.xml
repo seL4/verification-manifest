@@ -8,7 +8,7 @@
   
   <project name="isabelle" revision="refs/tags/Isabelle2015"/>
   <project name="l4v" revision="master" />
-  <project name="seL4" revision="f2b2301aa213dfef714c0af60950f842e5e878ed" />
+  <project name="seL4" revision="a99a10408d529289898edaad6cf044e62963306e" />
 
   <project name="graph-refine" remote="projects" revision="master"/>
   <project name="HOL" remote="HOL4-github" path="HOL4"
