@@ -3,12 +3,12 @@
   <remote fetch="../seL4-projects" name="projects" />
   <remote fetch="https://github.com/HOL-Theorem-Prover" name="HOL4-github" />
   
-  <default remote="verification" revision="master" />
+  <default remote="verification" revision="2.0.x-compatible" />
   
   <project name="isabelle" revision="refs/tags/Isabelle2015" />
-  <project name="l4v" revision="master" />
+  <project name="l4v" revision="2.0.x-compatible" />
   <project name="seL4" revision="refs/tags/2.0.0" />
 
-  <project name="graph-refine" remote="projects" revision="master" />
+  <project name="graph-refine" remote="projects" revision="2.0.x-compatible" />
   <project name="HOL" path="HOL4" remote="HOL4-github" revision="08b750fdf2f6012a69a4222a94fd08b8154dbff0" />
 </manifest>
