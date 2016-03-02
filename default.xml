@@ -5,10 +5,10 @@
   
   <default remote="verification" revision="master" />
   
-  <project name="isabelle" revision="2.1.x-compatible" />
-  <project name="l4v" revision="2.1.x-compatible" />
-  <project name="seL4" revision="refs/tags/2.1.0" />
+  <project name="isabelle" revision="3.0.x-compatible" />
+  <project name="l4v" revision="3.0.x-compatible" />
+  <project name="seL4" revision="refs/tags/3.0.0" />
 
-  <project name="graph-refine" remote="projects" revision="2.1.x-compatible" />
+  <project name="graph-refine" remote="projects" revision="3.0.x-compatible" />
   <project name="HOL" path="HOL4" remote="HOL4-github" revision="08b750fdf2f6012a69a4222a94fd08b8154dbff0" />
 </manifest>
