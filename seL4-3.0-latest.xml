@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="https://github.com/HOL-Theorem-Prover" name="HOL4-github" />
-  <remote fetch="../seL4-projects" name="projects" />
+  <remote fetch="../sel4proj" name="projects" />
   <remote fetch="." name="verification" />
   
   <default remote="verification" revision="master" />
