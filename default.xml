@@ -8,6 +8,6 @@
   <project name="HOL" path="HOL4" remote="HOL4-github" revision="08b750fdf2f6012a69a4222a94fd08b8154dbff0"/>
   <project name="graph-refine" remote="projects" revision="f60721486348f135d7203f534d9e4d63c173e2a4" upstream="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2016-1"/>
-  <project name="l4v" revision="41fe1a084504c9b30f2fce9fe53a0e5f8e881cda" upstream="master"/>
+  <project name="l4v" revision="5a82068c34b897dc3641b8f6cb58185abb616add" upstream="master"/>
   <project name="seL4" revision="da53f04de15a351de0274cbbd028da554abae594"/>
 </manifest>
