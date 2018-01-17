@@ -9,5 +9,5 @@
   <project name="graph-refine" remote="projects" revision="f60721486348f135d7203f534d9e4d63c173e2a4" upstream="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2017"/>
   <project name="l4v" revision="7c0e7970d65240adce1e020de867aec98e873212" upstream="master"/>
-  <project name="seL4" revision="396315f3bfb2592e2fe61eaaeee916b626f26e68"/>
+  <project name="seL4" revision="425ceb9cb3f3c33b9714686bea3e99a9e2ad5ff1"/>
   </manifest>
