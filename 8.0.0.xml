@@ -1,0 +1,13 @@
+<manifest>
+  <remote fetch="https://github.com/HOL-Theorem-Prover" name="HOL4-github"/>
+  <remote fetch="../sel4proj" name="projects"/>
+  <remote fetch="." name="verification"/>
+  
+  <default remote="verification" revision="master"/>
+  
+  <project name="HOL" path="HOL4" remote="HOL4-github" revision="08b750fdf2f6012a69a4222a94fd08b8154dbff0"/>
+  <project name="graph-refine" remote="projects" revision="f60721486348f135d7203f534d9e4d63c173e2a4" upstream="master"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2017"/>
+  <project name="l4v" revision="7c0e7970d65240adce1e020de867aec98e873212" upstream="master"/>
+  <project name="seL4" revision="396315f3bfb2592e2fe61eaaeee916b626f26e68"/>
+  </manifest>
