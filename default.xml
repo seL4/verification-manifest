@@ -1,12 +1,11 @@
 <manifest>
-  <remote fetch="https://github.com/HOL-Theorem-Prover" name="HOL4-github"/>
   <remote fetch="../sel4proj" name="projects"/>
   <remote fetch="." name="verification"/>
   
   <default remote="verification" revision="master"/>
   
-  <project name="HOL" path="HOL4" remote="HOL4-github" revision="08b750fdf2f6012a69a4222a94fd08b8154dbff0"/>
-  <project name="graph-refine" remote="projects" revision="585252debd1fa9783714fa9643151289d6ebd704" upstream="master"/>
+  <project name="HOL" path="HOL4" remote="projects" revision="4f80e24e46c27ca81175eddf0b442cea91029103" upstream="successful-decompile"/>
+  <project name="graph-refine" remote="projects" revision="b0807cb29e0c43efbf9a8110399ab2b6da8d0498" upstream="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2017"/>
   <project name="l4v" revision="9523eea0d681ec6e2790169116cd0e8ff328db43" upstream="master"/>
   <project name="seL4" revision="723aa0ead332660cc7f692f051a8fd9ca4ffc95c"/>
