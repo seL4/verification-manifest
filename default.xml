@@ -7,7 +7,7 @@
   <project name="HOL" path="HOL4" remote="projects" revision="1804892e96b43f86eb0367ed958278fc00dfbdf4" upstream="successful-decompile"/>
   <project name="graph-refine" remote="projects" revision="3593715a5f262aec9e279e26c8ba2bca9107975c" upstream="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2017"/>
-  <project name="l4v" revision="f617dc60e7b4a7745cf3fdce1080222b7915ab0a" upstream="master"/>
+  <project name="l4v" revision="4258929246a227c472b84b02ab45eecccd843244" upstream="master"/>
   <project name="polyml" path="HOL4/polyml" remote="projects" revision="04ba1833de85388cde2d6aa831ef2396fda1010b" upstream="successful-decompile"/>
   <project name="seL4" revision="f6a88c6badb7600bd15c0a51cdf39836cf670bd3"/>
   </manifest>
