@@ -1,0 +1,3 @@
+# List of seL4 release tags that are known to not work with l4v.
+# The find-release script will not attempt to process these.
+10.1.0
