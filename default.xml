@@ -4,7 +4,7 @@
   
   <default remote="verification" revision="master"/>
   
-  <project name="HOL" path="HOL4" remote="projects" revision="8179c0d99ce8ead96edb7a913d49962b77102bf7" upstream="successful-decompile"/>
+  <project name="HOL" path="HOL4" remote="projects" revision="ee1f3efa809fc1f7595e2bdea447dc07f7197a4e" upstream="successful-decompile"/>
   <project name="graph-refine" remote="projects" revision="debb3352b9740f013fbff390547f5cf5021a224d" upstream="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2019"/>
   <project name="l4v" revision="5e2f9bd83b8501ac6cee4ee3112cc754424bab45" upstream="master"/>
