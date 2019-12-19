@@ -4,10 +4,10 @@
   
   <default remote="verification" revision="master"/>
   
-  <project name="HOL" path="HOL4" remote="projects" revision="481761b292689788e0b28e013337d6a16c4a6fa4" upstream="successful-decompile"/>
+  <project name="HOL" path="HOL4" remote="projects" revision="f50990559d54c2f85f512df2c49bb6ff132ac113" upstream="successful-decompile"/>
   <project name="graph-refine" remote="projects" revision="debb3352b9740f013fbff390547f5cf5021a224d" upstream="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2019"/>
   <project name="l4v" revision="c3b5f2917a0799b8a0dcf125a5b2cdf43e0a9a79" upstream="master"/>
-  <project name="polyml" path="HOL4/polyml" remote="projects" revision="055f20cdc326ba62d7891640a5306554f8fe5a21" upstream="successful-decompile"/>
-  <project name="seL4" revision="4ef43d507c6280f97e175d1f415851610ada5ab0"/>
+  <project name="polyml" path="HOL4/polyml" remote="projects" revision="44efa473da58f37c8961f56c9893ca496c871a33" upstream="successful-decompile"/>
+  <project name="seL4" revision="05391acdf4e9d6e60bbcea1025585c9a4cbf7783"/>
   </manifest>
