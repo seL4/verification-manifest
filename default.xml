@@ -9,5 +9,5 @@
   <project name="isabelle" revision="refs/tags/Isabelle2019"/>
   <project name="l4v" revision="c148267df787b8dad0dd90963bb3eb3d2f71e032" upstream="master"/>
   <project name="polyml" path="HOL4/polyml" remote="projects" revision="8a67ec468af670c5cfa10282b444d6b122041c37" upstream="successful-decompile"/>
-  <project name="seL4" revision="451535a8b18b64538414877f5d3f6c65749f72e8" upstream="281195c2db837a9dcc19779b17e6d647eea1e8af"/>
+  <project name="seL4" revision="281195c2db837a9dcc19779b17e6d647eea1e8af" upstream="200cd2cbed272ed6c0dd9cc775b5c9598be3ac34"/>
   </manifest>
