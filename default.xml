@@ -4,10 +4,10 @@
   
   <default remote="verification" revision="master"/>
   
-  <project dest-branch="successful-decompile" name="HOL" path="HOL4" remote="projects" revision="6c081713c2712205fd8b325b55a31207ec3b7a8d" upstream="successful-decompile"/>
+  <project dest-branch="successful-decompile" name="HOL" path="HOL4" remote="projects" revision="1f26ee9abce3aa068715ded6abc566262f18dcea" upstream="successful-decompile"/>
   <project dest-branch="master" name="graph-refine" revision="d21d1417a524f6ee54f56ece347e643c1df9302b" upstream="master"/>
   <project dest-branch="ts-2019" name="isabelle" revision="refs/tags/Isabelle2019"/>
-  <project dest-branch="master" name="l4v" revision="0bea82f481e780f0ac3942b4565c07f657cb27b3" upstream="master"/>
-  <project dest-branch="successful-decompile" name="polyml" path="HOL4/polyml" remote="projects" revision="6ef92ae4b21450e84327e632fa18254d15347bd9" upstream="successful-decompile"/>
-  <project name="seL4" revision="707af36400cae7586db37303a7327791ce2ef320"/>
+  <project dest-branch="master" name="l4v" revision="0ba5b52d59a3f0febb99682a147c1f3293308897" upstream="master"/>
+  <project dest-branch="successful-decompile" name="polyml" path="HOL4/polyml" remote="projects" revision="b47866345ab62fa7075b1e2f4f7be2f1f53fdc7f" upstream="successful-decompile"/>
+  <project name="seL4" revision="5c1b81d9bb2db0e5f7801ce3442b8a18f96b6001"/>
   </manifest>
