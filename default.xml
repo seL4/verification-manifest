@@ -10,4 +10,4 @@
   <project dest-branch="master" name="l4v" revision="dbc735c81d72ce3dfac67a022cf0ff6ee18e36e7" upstream="master"/>
   <project dest-branch="successful-decompile" name="polyml" path="HOL4/polyml" remote="projects" revision="cea4c79cc7ef2445a0600f1be41acb3a97c16e01" upstream="successful-decompile"/>
   <project name="seL4" revision="b86bce2d4b11f9c4c5cd66c40eb47900bf51eaae"/>
-  </manifest>l
+  </manifest>
