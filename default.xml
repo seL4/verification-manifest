@@ -9,5 +9,5 @@
   <project dest-branch="ts-2020" name="isabelle" revision="refs/tags/Isabelle2020"/>
   <project dest-branch="master" name="l4v" revision="b5e7fa4e45334335def9979242c292debf9f01c5" upstream="master"/>
   <project dest-branch="successful-decompile" name="polyml" path="HOL4/polyml" remote="projects" revision="cea4c79cc7ef2445a0600f1be41acb3a97c16e01" upstream="successful-decompile"/>
-  <project dest-branch="6ad15c0f453df4f98fd21b36686b9f4f050d65a8" name="seL4" revision="b86bce2d4b11f9c4c5cd66c40eb47900bf51eaae" upstream="6ad15c0f453df4f98fd21b36686b9f4f050d65a8"/>
+  <project name="seL4" revision="6ad15c0f453df4f98fd21b36686b9f4f050d65a8"/>
   </manifest>
