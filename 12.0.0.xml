@@ -1,0 +1,13 @@
+<manifest>
+  <remote fetch="../sel4proj" name="projects"/>
+  <remote fetch="." name="verification"/>
+  
+  <default remote="verification" revision="master"/>
+  
+  <project dest-branch="successful-decompile" name="HOL" path="HOL4" remote="projects" revision="6c0c2409ecdbd7195911f674a77bfdd39c83816e" upstream="successful-decompile"/>
+  <project dest-branch="master" name="graph-refine" revision="c3a38db3b3860228fcdd3aa5016163e72baeb158" upstream="master"/>
+  <project dest-branch="ts-2020" name="isabelle" revision="refs/tags/Isabelle2020"/>
+  <project dest-branch="master" name="l4v" revision="e51ea954278db48c20dc5132bbbbcb54b511433f" upstream="master"/>
+  <project dest-branch="successful-decompile" name="polyml" path="HOL4/polyml" remote="projects" revision="cf46747fee61f6ed6ca49bc2e269d5d9960d5f7b" upstream="successful-decompile"/>
+  <project name="seL4" revision="dc83859f6a220c04f272be17406a8d59de9c8fbf"/>
+  </manifest>
