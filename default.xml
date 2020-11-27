@@ -1,13 +1,13 @@
 <manifest>
-  <remote fetch="../sel4proj" name="projects"/>
-  <remote fetch="." name="verification"/>
+  <remote name="projects" fetch="../sel4proj"/>
+  <remote name="verification" fetch="."/>
   
   <default remote="verification" revision="master"/>
   
-  <project dest-branch="successful-decompile" name="HOL" path="HOL4" remote="projects" revision="c7ac62ae2b67b1d68d23942b23195df48e1bb7e9" upstream="successful-decompile"/>
-  <project dest-branch="master" name="graph-refine" revision="4e83cd93e2a4744f19bf3f39fb1313753c97bbee" upstream="master"/>
-  <project dest-branch="ts-2020" name="isabelle" revision="refs/tags/Isabelle2020"/>
-  <project dest-branch="master" name="l4v" revision="ca9df38137850fb889059fd08297eea54414f653" upstream="master"/>
-  <project dest-branch="successful-decompile" name="polyml" path="HOL4/polyml" remote="projects" revision="f86ae3dc168612d51e7a73fbe3b7e02cb3bc1bac" upstream="successful-decompile"/>
+  <project name="HOL" path="HOL4" remote="projects" revision="c7ac62ae2b67b1d68d23942b23195df48e1bb7e9" upstream="successful-decompile" dest-branch="successful-decompile"/>
+  <project name="graph-refine" revision="4e83cd93e2a4744f19bf3f39fb1313753c97bbee" upstream="master" dest-branch="master"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2020" dest-branch="ts-2020"/>
+  <project name="l4v" revision="0c275ddad0fa8da71f6a9f8c89b404c355a471d2" upstream="master" dest-branch="master"/>
+  <project name="polyml" path="HOL4/polyml" remote="projects" revision="f86ae3dc168612d51e7a73fbe3b7e02cb3bc1bac" upstream="successful-decompile" dest-branch="successful-decompile"/>
   <project name="seL4" revision="d4f59d37b142421f574a213e89592e319b73b0df"/>
   </manifest>
