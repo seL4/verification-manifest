@@ -1,10 +1,14 @@
 <manifest>
+  <!--
+       Copyright 2020, Data61, CSIRO
+       SPDX-License-Identifier: BSD-2-Clause
+  -->
   <remote fetch="." name="verification" />
   <remote fetch="../sel4proj" name="projects" />
   <remote fetch="https://github.com/HOL-Theorem-Prover" name="HOL4-github" />
-  
+
   <default remote="verification" revision="master" />
-  
+
   <project name="isabelle" revision="3.0.x-compatible" />
   <project name="l4v" revision="3.0.x-compatible" />
   <project name="seL4" revision="refs/tags/3.0.0" />
