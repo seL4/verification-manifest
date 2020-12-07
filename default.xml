@@ -1,6 +1,6 @@
 <manifest>
   <!--
-       Copyright 2020, Data61, CSIRO
+       Copyright 2021, Data61, CSIRO
        SPDX-License-Identifier: BSD-2-Clause
   -->
   <remote name="projects" fetch="../sel4proj"/>
@@ -8,10 +8,10 @@
 
   <default remote="verification" revision="master"/>
 
-  <project name="HOL" path="HOL4" remote="projects" revision="77016ef7b01f987f1f684e825ac1d79feb8d454a" upstream="successful-decompile" dest-branch="successful-decompile"/>
-  <project name="graph-refine" revision="4e83cd93e2a4744f19bf3f39fb1313753c97bbee" upstream="master" dest-branch="master"/>
-  <project name="isabelle" revision="refs/tags/Isabelle2020" dest-branch="ts-2020"/>
-  <project name="l4v" revision="b9a48d8042f213565fc87637954eb8a9f03c91ba" upstream="master" dest-branch="master"/>
-  <project name="polyml" path="HOL4/polyml" remote="projects" revision="b94e1fb57e5f0551762ef984fa95c659c13177f0" upstream="successful-decompile" dest-branch="successful-decompile"/>
-  <project name="seL4" revision="0d35551966e787006149ec8a0046c3daeb9fc6dc"/>
+  <project name="HOL" path="HOL4" remote="projects" revision="ca71e46c32fd6a11162c9640ee7006dfe1c6fabd" upstream="successful-decompile" dest-branch="successful-decompile"/>
+  <project name="graph-refine" revision="debb3352b9740f013fbff390547f5cf5021a224d" upstream="master" dest-branch="master"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2019" dest-branch="ts-2019"/>
+  <project name="l4v" revision="zynqmp-fpu-ver-v11"/>
+  <project name="polyml" path="HOL4/polyml" remote="projects" revision="67e87c763417dd5ea088d924ec249346a80ccd60" upstream="successful-decompile" dest-branch="successful-decompile"/>
+  <project name="seL4" revision="zynqmp-fpu-ver-v11"/>
 </manifest>
