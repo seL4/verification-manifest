@@ -1,17 +1,13 @@
 <manifest>
-  <!--
-       Copyright 2020, Data61, CSIRO
-       SPDX-License-Identifier: BSD-2-Clause
-  -->
   <remote name="projects" fetch="../sel4proj"/>
   <remote name="verification" fetch="."/>
-
+  
   <default remote="verification" revision="master"/>
-
-  <project name="HOL" path="HOL4" remote="projects" revision="77016ef7b01f987f1f684e825ac1d79feb8d454a" upstream="successful-decompile" dest-branch="successful-decompile"/>
+  
+  <project name="HOL" path="HOL4" remote="projects" revision="79c2f6fae3338794b0290aeb7fed338be456efcd" upstream="successful-decompile" dest-branch="successful-decompile"/>
   <project name="graph-refine" revision="4e83cd93e2a4744f19bf3f39fb1313753c97bbee" upstream="master" dest-branch="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2020" dest-branch="ts-2020"/>
-  <project name="l4v" revision="b9a48d8042f213565fc87637954eb8a9f03c91ba" upstream="master" dest-branch="master"/>
+  <project name="l4v" revision="3cc7a1c6b7a7b108b24d6c9f02dd0f1219e54faa" upstream="master" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" remote="projects" revision="b94e1fb57e5f0551762ef984fa95c659c13177f0" upstream="successful-decompile" dest-branch="successful-decompile"/>
-  <project name="seL4" revision="0d35551966e787006149ec8a0046c3daeb9fc6dc"/>
-</manifest>
+  <project name="seL4" revision="c381c7e14c1a1c1987c9f3e4d87af82ae3b9a54e"/>
+  </manifest>
