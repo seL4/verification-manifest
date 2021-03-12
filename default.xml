@@ -7,7 +7,7 @@
   <project name="HOL" path="HOL4" remote="projects" revision="5e024a1e811a454ec9e0271d80b4b1f3146d63b8" upstream="successful-decompile" dest-branch="successful-decompile"/>
   <project name="graph-refine" revision="4e83cd93e2a4744f19bf3f39fb1313753c97bbee" upstream="master" dest-branch="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2020" dest-branch="ts-2020"/>
-  <project name="l4v" revision="dd07ffd197f6e14aa4488747035b12709204e952" upstream="master" dest-branch="master"/>
+  <project name="l4v" revision="dd6529f520a25328469fc44cfd54f3b29ffd75cc" upstream="master" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" remote="projects" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" upstream="successful-decompile" dest-branch="successful-decompile"/>
   <project name="seL4" revision="d6b83163b55c20ad146620fe82e261221d321316"/>
   </manifest>
