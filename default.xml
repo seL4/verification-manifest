@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2021, Data61, CSIRO
+  SPDX-License-Identifier: BSD-2-Clause
+-->
 <manifest>
   <remote name="projects" fetch="../sel4proj"/>
   <remote name="verification" fetch="."/>
@@ -9,5 +14,5 @@
   <project name="isabelle" revision="refs/tags/Isabelle2020" dest-branch="ts-2020"/>
   <project name="l4v" revision="7983107b714e96e4a80f0a1c557d80d71fa4f36b" upstream="master" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" remote="projects" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" upstream="successful-decompile" dest-branch="successful-decompile"/>
-  <project name="seL4" revision="d28752f5fa32f5dd13b28e96228156acbef46950" upstream="2ac418538149f054a57984bff8635fdb237c2669" dest-branch="2ac418538149f054a57984bff8635fdb237c2669"/>
+  <project name="seL4" revision="2ac418538149f054a57984bff8635fdb237c2669"/>
   </manifest>
