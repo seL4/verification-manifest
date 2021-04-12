@@ -13,5 +13,5 @@
   <project name="isabelle" revision="refs/tags/Isabelle2020"/>
   <project name="l4v" revision="4da8cfacdcb03a94544590a64f23f07a59f4ba0e"/>
   <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162"/>
-  <project name="seL4" revision="2326dc7b96b9c783ee2eb40dcb8301c93e5f6369"/>
+  <project name="seL4" revision="5b2a9250e3cdfd5caff59ee0dd380e674766102e"/>
 </manifest>
