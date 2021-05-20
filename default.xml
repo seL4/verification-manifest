@@ -11,7 +11,7 @@
   <project name="HOL" path="HOL4" revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158"/>
   <project name="graph-refine" revision="78c74f18127db53606f18f775a5a50de86bc6b97"/>
   <project name="isabelle" revision="refs/tags/Isabelle2020"/>
-  <project name="l4v" revision="e9c7c48ed43a51e5495d29d59e4dc0159d104bda"/>
+  <project name="l4v" revision="73649d2ce4332301d39d5ed16bb1630012b3e7b4"/>
   <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162"/>
-  <project name="seL4" revision="7bb2717e41bde84dae42e0156e9988ee5e1704f1"/>
+  <project name="seL4" revision="72f323d961b12891e36f92a78c0338dc583f5f87"/>
 </manifest>
