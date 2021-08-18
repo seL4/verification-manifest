@@ -1,0 +1,26 @@
+# Copyright 2021, Proofcraft Pty Ltd
+#
+# SPDX-License-Identifier: BSD-2-Clause
+
+# trigger a proof run in L4v when devel.xml is updated manually
+
+name: Trigger
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'devel.xml'
+
+jobs:
+  l4v:
+    name: L4v
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v1
+        if: ${{ github.event.pusher.login != 'seL4-ci' }}
+        with:
+          token: ${{ secrets.PRIV_REPO_TOKEN }}
+          repository: seL4/l4v
+          event-type: manifest-update
