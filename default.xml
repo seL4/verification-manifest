@@ -9,9 +9,9 @@
   <default remote="verification" revision="master"/>
   
   <project name="HOL" path="HOL4" revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile"/>
-  <project name="graph-refine" revision="6a5c2716f86a9a663a7dd22a7f7eefe8f1bc3c8b" dest-branch="master"/>
+  <project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" dest-branch="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2020" dest-branch="ts-2020"/>
   <project name="l4v" revision="512f62858a1c45c17074e194b1c507b291918e3e" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
-  <project name="seL4" revision="f3addaa0fb7e22a7741d56593a21251d3036bfb0"/>
+  <project name="seL4" revision="751198038a953341968030d3f00b22eb521427c8"/>
 </manifest>
