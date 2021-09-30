@@ -9,7 +9,7 @@
 
   <project name="HOL" path="HOL4" revision="successful-decompile" />
   <project name="graph-refine" />
-  <project name="isabelle" revision="ts-2020" />
+  <project name="isabelle" revision="ts-2021" />
   <project name="l4v" />
   <project name="polyml" path="HOL4/polyml" revision="successful-decompile"/>
   <project name="seL4" revision="0cd595d802c22f075a020c92929c131e43a19b1f"/>
