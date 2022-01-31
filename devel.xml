@@ -12,5 +12,9 @@
   <project name="isabelle" revision="ts-2021" />
   <project name="l4v" />
   <project name="polyml" path="HOL4/polyml" revision="successful-decompile"/>
-  <project name="seL4" revision="abeba041f6a73aea5c3d6ca6227c58d29f0d5d40"/>
+<<<<<<< HEAD
+  <project name="seL4" revision="04c8c40a52bc9df6f362fe11329b26aa629825f0"/>
+=======
+  <project name="seL4" revision="8c16b4b94d73440d83fd6f9bf650b1a9683af16d"/>
+>>>>>>> 615f77d (Bump kernel revision to '8c16b4b9 risc-v: move C code out of hardware.h')
 </manifest>
