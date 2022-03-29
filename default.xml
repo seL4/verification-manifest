@@ -5,12 +5,12 @@
 -->
 <manifest>
   <remote name="verification" fetch="."/>
-  
+
   <default remote="verification" revision="master"/>
-  
+
   <project name="HOL" path="HOL4" revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile"/>
   <project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" dest-branch="master"/>
-  <project name="isabelle" revision="refs/tags/Isabelle2021-1" dest-branch="ts-2021-1"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2021" dest-branch="ts-2021-1"/>
   <project name="l4v" revision="36135c5654f5a88096b31bcd5c5ac890df2fa452" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
   <project name="seL4" revision="646bf87cc8576ee7c34a590e49f181ec98a55de2"/>
