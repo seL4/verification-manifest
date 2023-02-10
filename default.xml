@@ -11,7 +11,7 @@
   <project name="HOL" path="HOL4" revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile"/>
   <project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" dest-branch="master"/>
   <project name="isabelle" revision="refs/tags/Isabelle2022" dest-branch="ts-2022"/>
-  <project name="l4v" revision="e89813ecf2b32f3c27fd0efaf09a8c45bf8abf1c" dest-branch="master"/>
+  <project name="l4v" revision="81513b894f7b15b55f46df7b72fe53b25d8522c7" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
   <project name="seL4" revision="3ae685ab1cb1b702756e792e18a5bbaffad2b0fb"/>
 </manifest>
