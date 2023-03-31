@@ -5,16 +5,21 @@
 
 # Manifest repository
 
-This repository contains google `repo` manifest files for the
-verification repository collection.
+This repository contains google [repo] manifest files for the verification
+repository collection. It manages the collection of repositories that are needed
+for the verification of the seL4 microkernel. In particular, these repositories
+include the proofs, the kernel sources, the theorem prover Isabelle/HOL, the
+theorem prover HOL4, and the binary verification tool chain.
+
+[repo]: https://gerrit.googlesource.com/git-repo/+/HEAD/README.md
 
 ## Contents
 
 The manifest files stored here come in three categories:
 
 - `default.xml`: this manifest stores the latest tested-as-working combination
-  of the seL4 code and proof repositories. It is updated automatically by CI jobs,
-  points to specific revision hashes, and should generally not be modified manually.
+  of the seL4 code and proof repositories. It is updated automatically by CI jobs.
+  It points to specific revision hashes, and should generally not be modified manually.
 
 - development manifests such as `devel.xml` and `mcs.xml`: these are for proof
   development and typically point to branch names of the verification
@@ -33,29 +38,12 @@ The manifest files stored here come in three categories:
 
 ## Use
 
-To use, install the google `repo` tool from
-<http://source.android.com/source/downloading.html#installing-repo>
+To build the seL4 proofs, please follow the [setup] instructions in the [l4v]
+repository.
 
-Then, for the latest working version combination, run the following commands:
+For build instructions for the binary verification, see the [graph-refine]
+repository.
 
-    mkdir verification
-    cd verification
-    repo init -u ssh://git@github.com/seL4/verification-manifest.git
-    repo sync
-
-If you do not have `ssh` access set up for github, you can also use
-
-    repo init -u https://github.com/seL4/verification-manifest.git
-
-For build instructions for the proofs, see the
-[l4v/](https://github.com/seL4/l4v/) repository.
-
-For build instructions for the binary verification, see the
-[graph-refine/](https://github.com/seL4/graph-refine/) repository.
-
-To set your repositories up for development, replace the `init` step with:
-
-    repo init -m devel.xml -u ssh://git@github.com/seL4/verification-manifest.git
-
-Similarly, if you are looking to use the proofs for a specific release version
-of seL4, use the `-m` option to select the corresponding manifest file.
+[setup]: https://github.com/seL4/l4v/blob/master/docs/setup.md
+[l4v]: https://github.com/seL4/l4v/
+[graph-refine]: (https://github.com/seL4/graph-refine/)
