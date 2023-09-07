@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2021, Data61, CSIRO
+  Copyright 2023, UNSW Sydney
+  SPDX-License-Identifier: BSD-2-Clause
+-->
+<manifest>
+  <remote name="verification" fetch="https://github.com/seL4/"/>
+  <default remote="verification" revision="master"/>
+
+  <project name="HOL" path="HOL4" revision="successful-decompile" />
+  <project name="graph-refine" />
+  <project name="isabelle" revision="ts-2021-1" />
+  <project name="l4v" revision="experimental-timeprot" />
+  <project name="polyml" path="HOL4/polyml" revision="successful-decompile"/>
+  <project name="seL4" revision="4a7d08def09b2b8b30cb76dee15144a9cfaeb5c7"/>
+</manifest>
