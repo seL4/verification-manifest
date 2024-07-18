@@ -21,14 +21,19 @@ The manifest files stored here come in three categories:
   of the seL4 code and proof repositories. It is updated automatically by CI jobs.
   It points to specific revision hashes, and should generally not be modified manually.
 
-- development manifests such as `devel.xml` and `mcs.xml`: these are for proof
-  development and typically point to branch names of the verification
+- `mcs.xml`: this manifest stores the latest tested-as-working combination of
+  the seL4 code and proof repositories for the MCS proofs (the `rt` branch in
+  the `l4v` repository). It is updated automatically by CI jobs. It points to
+  specific revision hashes, and should generally not be modified manually.
+
+- development manifests such as `devel.xml` and `mcs-devel.xml`: these are for
+  proof development and typically point to branch names of the verification
   repositories in combination with a fixed revision hash of the seL4 code
-  repository. The seL4 revision in `devel.xml` is updated automatically by CI
-  jobs for code changes in seL4 that are not visible to the proofs. It should be
-  updated manually or using the [version bump][] script whenever proofs are
-  updated in sync with the code. This will then trigger a CI run and, if
-  successful, a corresponding update in `default.xml`.
+  repository. The seL4 revision in `devel.xml` and `mcs-devel.xml` is updated
+  automatically by CI jobs for code changes in seL4 that are not visible to the
+  proofs. It should be updated manually or using the [version bump][] script
+  whenever proofs are updated in sync with the code. This will then trigger a CI
+  run and, if successful, a corresponding update in `default.xml` or `mcs.xml`.
 
 - release version manifests such as `12.0.0.xml`: these store the repository
   version configuration for official releases of seL4. Use these to check proofs
