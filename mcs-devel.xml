@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2021, Data61, CSIRO
+  SPDX-License-Identifier: BSD-2-Clause
+-->
+<manifest>
+  <remote name="verification" fetch="."/>
+  <default remote="verification" revision="master"/>
+
+  <project name="HOL" path="HOL4" revision="successful-decompile" />
+  <project name="graph-refine" />
+  <project name="isabelle" revision="ts-2024" />
+  <project name="l4v" revision="rt" />
+  <project name="polyml" path="HOL4/polyml" revision="successful-decompile"/>
+  <project name="seL4" revision="7a3ab6bb2e35113b8d2c964f778087900f1cf96a"/>
+</manifest>
