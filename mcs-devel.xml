@@ -12,5 +12,5 @@
   <project name="isabelle" revision="ts-2025" />
   <project name="l4v" revision="rt" />
   <project name="polyml" path="HOL4/polyml" revision="successful-decompile"/>
-  <project name="seL4" revision="78c3b11a02368dadd314e34a61d53853d6a4b2d7"/>
+  <project name="seL4" revision="67f9a1002c2f5156e2d0d90fe2c18fef392b30a3"/>
 </manifest>
