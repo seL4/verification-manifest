@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright seL4 Project a Series of LF Projects, LLC
+  SPDX-License-Identifier: BSD-2-Clause
+-->
+<manifest>
+  <remote name="verification" fetch="."/>
+
+  <default remote="verification" revision="master"/>
+
+  <project name="HOL" path="HOL4" revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile"/>
+  <project name="graph-refine" revision="33d94bbdd6448ada368d4d925935e8cfdf7d93b4" dest-branch="master"/>
+  <project name="isabelle" revision="refs/tags/Isabelle2025" dest-branch="ts-2025"/>
+  <project name="l4v" revision="c097c61cb42dbd2bff1cae36721a9cc46824266f" dest-branch="master"/>
+  <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
+  <project name="seL4" revision="881de507fe528490dc5e570c7810a149bad5880f"/>
+</manifest>
