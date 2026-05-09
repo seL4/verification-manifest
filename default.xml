@@ -13,5 +13,5 @@
   <project name="isabelle" revision="refs/tags/Isabelle2025" dest-branch="ts-2025"/>
   <project name="l4v" revision="49c1c93c31f8b0305632284838aa21731bf596ae" dest-branch="master"/>
   <project name="polyml" path="HOL4/polyml" revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
-  <project name="seL4" revision="744104654df59476a99dd04c1f5671471f55a134"/>
+  <project name="seL4" revision="a0b4f2d25dc975f6a9198c081359c0e38e5614fb"/>
 </manifest>
